@@ -31,8 +31,8 @@ const option = {
       {
           name: 'การจัดสรรงบประมาณ',
           type: 'pie',
-          radius : '55%',
-          // center: ['40%', '50%'],
+          radius : '65%',
+          center: ['50%', '60%'],
           data: data,
           itemStyle: {
               emphasis: {
@@ -50,7 +50,11 @@ const DivideMoney = () => {
     <div>
       <ReactEcharts
         option={option}
-        style={{ maxWidth: '700px', margin: '0 auto' }}
+        style={{
+          maxWidth: '700px',
+          margin: '0 auto',
+          height: '340px'
+        }}
       />
     </div>
   )
