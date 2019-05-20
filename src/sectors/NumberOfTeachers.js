@@ -24,7 +24,8 @@ const option = {
       data: number_of_teachers['ครู ภูมิภาค'],
       type: 'line',
       showSymbol: false,
-  }]
+  }],
+  color: ['#17aaa1']
 }
 
 const NumberOfTeachers = () => {

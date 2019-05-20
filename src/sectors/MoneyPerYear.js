@@ -22,7 +22,8 @@ const option = {
       data: money_per_year['งบประมาณรายจ่ายด้านการศึกษา'],
       type: 'line',
       showSymbol: false,
-  }]
+  }],
+  color: ['#00A0E5']
 }
 
 const MoneyPerYear = () => {

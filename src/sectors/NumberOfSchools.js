@@ -24,7 +24,8 @@ const option = {
       data: number_of_schools['จำนวนสถานศึกษา'],
       type: 'line',
       showSymbol: false,
-  }]
+  }],
+  color: ['#c11772']
 }
 
 const NumberOfSchools = () => {

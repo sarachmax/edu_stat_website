@@ -1,8 +1,15 @@
+/* @font-face {
+  font-family: Sarabun;
+  src: url(fonts/Sarabun/Sarabun-Medium.ttf);
+} */
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  font-size: 18px;
+  letter-spacing: 0.25px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",

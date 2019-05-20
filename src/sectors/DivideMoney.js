@@ -42,7 +42,8 @@ const option = {
               }
           }
       }
-  ]
+  ],
+  color: ['#1dd1a1', '#5f27cd', '#ff9f43', '#54a0ff', '#ee5253', '#eae075']
 }
 
 const DivideMoney = () => {
