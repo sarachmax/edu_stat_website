@@ -50,6 +50,7 @@ const DivideMoney = () => {
     <div>
       <ReactEcharts
         option={option}
+        style={{ maxWidth: '700px', margin: '0 auto' }}
       />
     </div>
   )

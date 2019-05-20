@@ -4,6 +4,11 @@ import ReactEcharts from 'echarts-for-react'
 import number_of_students from '../json/จำนวนนักเรียน'
 
 const option = {
+  title : {
+    text: 'จำนวนนักเรียน',
+    x:'center',
+    // padding:
+  },
   xAxis: {
       type: 'category',
       data: number_of_students['ปี']
@@ -47,6 +52,7 @@ const NumberOfStedents = () => {
     <div>
       <ReactEcharts
         option={option}
+        style={{ maxWidth: '700px', margin: '0 auto' }}
       />
     </div>
   )
