@@ -1,0 +1,15 @@
+0000000000000000000000000000000000000000 5d913223b4c5f9ebaff7df55caf9876fe54c633e kaisukez <zykigix@hotmail.com> 1558332035 +0700	commit (initial): Initial commit from Create React App
+5d913223b4c5f9ebaff7df55caf9876fe54c633e 2ba06eb0d6536ec21e286db72f917e053aad80f2 kaisukez <zykigix@hotmail.com> 1558335224 +0700	commit: clean data
+2ba06eb0d6536ec21e286db72f917e053aad80f2 b0cae9918aff95fc2c060c874b20d53cc01ecd0b kaisukez <zykigix@hotmail.com> 1558336036 +0700	commit: add sectors
+b0cae9918aff95fc2c060c874b20d53cc01ecd0b e0bdbb3e7786aa4e9caaf2c2490a2314bce36cad kaisukez <zykigix@hotmail.com> 1558337615 +0700	commit: add all graph
+e0bdbb3e7786aa4e9caaf2c2490a2314bce36cad d2bf54ed8323ca72d6568a799cb4f1024c327513 kaisukez <zykigix@hotmail.com> 1558339070 +0700	commit: release 1
+d2bf54ed8323ca72d6568a799cb4f1024c327513 a9c505dbb33d6618e24aae75107dff0534ce0918 kaisukez <zykigix@hotmail.com> 1558339109 +0700	commit (amend): release 1
+a9c505dbb33d6618e24aae75107dff0534ce0918 a4d45b1e4b1958c45050095caec84ed1c61a05bc kaisukez <zykigix@hotmail.com> 1558340142 +0700	commit: fix graph
+a4d45b1e4b1958c45050095caec84ed1c61a05bc 5c239277fbe8ee704015b1db0ba290bed07f45a7 kaisukez <zykigix@hotmail.com> 1558340338 +0700	commit: add author
+5c239277fbe8ee704015b1db0ba290bed07f45a7 90b004971eac9d371409b45636c355aaadb09284 kaisukez <zykigix@hotmail.com> 1558340580 +0700	commit: show symbol = false
+90b004971eac9d371409b45636c355aaadb09284 a224f6284f7121c0ab3ccf1eb5f884431629a65c kaisukez <zykigix@hotmail.com> 1558340824 +0700	commit: change pie chart size
+a224f6284f7121c0ab3ccf1eb5f884431629a65c 08e693c6edca1f70cafcd05b4f398a962e3e330f kaisukez <zykigix@hotmail.com> 1558341360 +0700	commit: fix number_of_student graph
+08e693c6edca1f70cafcd05b4f398a962e3e330f f08736d192d33e145d2b1b0feab21a2998efa2d2 kaisukez <zykigix@hotmail.com> 1558342947 +0700	commit: add table
+f08736d192d33e145d2b1b0feab21a2998efa2d2 eda9692eb3bc90bfadac4095e3d300f4be6ab316 kaisukez <zykigix@hotmail.com> 1558343065 +0700	commit (amend): add table
+eda9692eb3bc90bfadac4095e3d300f4be6ab316 d8d2a0153685b096332d979bc71f35d99025282d kaisukez <zykigix@hotmail.com> 1558345624 +0700	commit: finish
+d8d2a0153685b096332d979bc71f35d99025282d ea85e931892e022fd8c7a7b276805021bb19619d kaisukez <zykigix@hotmail.com> 1558346025 +0700	commit: format number
