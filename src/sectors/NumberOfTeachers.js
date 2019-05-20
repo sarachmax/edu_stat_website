@@ -22,7 +22,8 @@ const option = {
   },
   series: [{
       data: number_of_teachers['ครู ภูมิภาค'],
-      type: 'line'
+      type: 'line',
+      showSymbol: false,
   }]
 }
 

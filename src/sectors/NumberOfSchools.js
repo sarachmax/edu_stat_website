@@ -22,7 +22,8 @@ const option = {
   },
   series: [{
       data: number_of_schools['จำนวนสถานศึกษา'],
-      type: 'line'
+      type: 'line',
+      showSymbol: false,
   }]
 }
 

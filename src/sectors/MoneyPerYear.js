@@ -20,7 +20,8 @@ const option = {
   },
   series: [{
       data: money_per_year['งบประมาณรายจ่ายด้านการศึกษา'],
-      type: 'line'
+      type: 'line',
+      showSymbol: false,
   }]
 }
 

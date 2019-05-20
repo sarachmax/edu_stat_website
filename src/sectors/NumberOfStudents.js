@@ -27,23 +27,28 @@ const option = {
     {
       name: 'ก่อนประถมศึกษา',
       data: number_of_students['ก่อนประถมศึกษา'],
-      type: 'line'
+      type: 'line',
+      showSymbol: false,
     }, {
       name: 'เฉลี่ยประถมต้น-ปลาย',
       data: number_of_students['เฉลี่ยประถมต้น-ปลาย'],
-      type: 'line'
+      type: 'line',
+      showSymbol: false,
     }, {
       name: 'มัธยมศึกษาตอนต้น',
       data: number_of_students['มัธยมศึกษาตอนต้น'],
-      type: 'line'
+      type: 'line',
+      showSymbol: false,
     }, {
       name: 'มัธยมศึกษาตอนปลาย',
       data: number_of_students['มัธยมศึกษาตอนปลาย'],
-      type: 'line'
+      type: 'line',
+      showSymbol: false,
     }, {
       name: 'ปริญญาตรีและต่ำกว่า',
       data: number_of_students['ปริญญาตรีและต่ำกว่า'],
-      type: 'line'
+      type: 'line',
+      showSymbol: false,
     }
   ]
 }
