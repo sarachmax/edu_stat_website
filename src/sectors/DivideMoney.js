@@ -10,6 +10,10 @@ const data = Object.keys(divide_money)
   }))
   .sort((a, b) => b.value - a.value)
 
+const formatNumber = number => {
+  return number.toLocaleString(navigator.language, { minimumFractionDigits: 0 })
+}
+
 const option = {
   title : {
       text: 'การจัดสรรงบประมาณ',
@@ -17,7 +21,9 @@ const option = {
   },
   tooltip : {
       trigger: 'item',
-      formatter: "{a} <br/>{b} : {c} ({d}%)"
+      formatter: ({name, value, percent}) => {
+        return `${name} : ${formatNumber(value)} (${percent}%)`
+      }
   },
   // legend: {
   //     type: 'scroll',
