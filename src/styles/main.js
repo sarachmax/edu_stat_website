@@ -8,3 +8,7 @@ export const Container = styled.div`
 export const H2 = styled.h2`
   text-align: center;
 `
+
+export const H3 = styled.h3`
+  text-align: center;
+`

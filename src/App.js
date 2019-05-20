@@ -1,6 +1,10 @@
 import React from 'react';
 
-import { Container, H2 } from './styles/main'
+import {
+  Container,
+  H2,
+  H3
+} from './styles/main'
 
 import MoneyPerYear from './sectors/MoneyPerYear'
 import DivideMoney from './sectors/DivideMoney'
@@ -13,7 +17,7 @@ function App() {
     <Container>
       <H2>รายงานการวิเคราะห์รายจ่าย</H2>
       <H2>งบประมาณกระทรวงศึกษาธิการ</H2>
-      
+
       <MoneyPerYear />
       <p>งบประมาณรายจ่ายด้านการศึกษามีแนวโน้มเพิ่มขึ้นตามจำนวนปีที่เพิ่มขึ้น โดยเฉลี่ยการจัดสรรงบประมาณของทุกปี จะได้ผลดังนี้</p>
       <DivideMoney />
@@ -35,6 +39,8 @@ function App() {
         <li>ข้อมูลจำนวนครูมีแนวโน้มลดลง</li>
         <li>ข้อมูลจำนวนสถานศึกษามีจำนวนคงที่</li>
       </ol>
+      <H3>ผู้จัดทำ นายสารัช รุจิรานุรักษ์</H3>
+      <H3>รหัสประจำตัว 5810502474</H3>
     </Container>
   );
 }
