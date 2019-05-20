@@ -13,7 +13,9 @@ const option = {
       data: number_of_schools['ปี']
   },
   yAxis: {
-      type: 'value'
+      type: 'value',
+      min: 37000,
+      max: 39500
   },
   tooltip: {
     trigger: 'axis'

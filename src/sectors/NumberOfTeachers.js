@@ -13,7 +13,9 @@ const option = {
       data: number_of_teachers['ปี']
   },
   yAxis: {
-      type: 'value'
+      type: 'value',
+      min: 550000,
+      max: 750000
   },
   tooltip: {
     trigger: 'axis'

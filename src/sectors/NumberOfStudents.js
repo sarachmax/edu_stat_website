@@ -14,7 +14,8 @@ const option = {
       data: number_of_students['ปี']
   },
   yAxis: {
-      type: 'value'
+      type: 'value',
+      min: 500000
   },
   legend: {
     data: ['ก่อนประถมศึกษา','เฉลี่ยประถมต้น-ปลาย','มัธยมศึกษาตอนต้น','มัธยมศึกษาตอนปลาย','ปริญญาตรีและต่ำกว่า']
@@ -52,7 +53,11 @@ const NumberOfStedents = () => {
     <div>
       <ReactEcharts
         option={option}
-        style={{ maxWidth: '700px', margin: '0 auto' }}
+        style={{
+          maxWidth: '700px',
+          margin: '0 auto',
+          height: '400px'
+        }}
       />
     </div>
   )
