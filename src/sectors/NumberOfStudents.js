@@ -9,6 +9,10 @@ const option = {
     x:'center',
     // padding:
   },
+  grid: {
+    // height: 200,
+    top: 90,
+  },
   xAxis: {
       type: 'category',
       data: number_of_students['ปี']
@@ -18,7 +22,25 @@ const option = {
       min: 500000
   },
   legend: {
-    data: ['ก่อนประถมศึกษา','เฉลี่ยประถมต้น-ปลาย','มัธยมศึกษาตอนต้น','มัธยมศึกษาตอนปลาย','ปริญญาตรีและต่ำกว่า']
+    data: [
+      {
+        name: 'ก่อนประถมศึกษา',
+        icon: 'circle'
+      }, {
+        name: 'เฉลี่ยประถมต้น-ปลาย',
+        icon: 'circle'
+      },{
+        name: 'มัธยมศึกษาตอนต้น',
+        icon: 'circle'
+      }, {
+        name: 'มัธยมศึกษาตอนปลาย',
+        icon: 'circle'
+      }, {
+        name: 'ปริญญาตรีและต่ำกว่า',
+        icon: 'circle'
+      },
+    ],
+    top: 40
   },
   tooltip: {
     trigger: 'axis'
